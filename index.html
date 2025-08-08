@@ -1,120 +1,89 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>JADEA MOOVE - Chauffeur Privé Haut de Gamme</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #111;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Paris_night_skyline.jpg');
-            background-size: cover;
-            background-position: center;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        header img {
-            max-width: 180px;
-            margin-bottom: 10px;
-        }
-        header h1 {
-            margin: 0;
-            color: #e0b000;
-            font-size: 36px;
-        }
-        header p {
-            margin: 10px 0 0 0;
-            font-size: 18px;
-        }
-        section {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        h2 {
-            color: #e0b000;
-        }
-        a.button {
-            display: inline-block;
-            padding: 12px 20px;
-            margin: 10px 0;
-            background-color: #e0b000;
-            color: #000;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5px;
-        }
-        form input, form textarea, form select {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0 15px 0;
-            border: none;
-            border-radius: 4px;
-        }
-        form button {
-            padding: 10px 20px;
-            background-color: #e0b000;
-            color: #000;
-            border: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        footer {
-            background-color: #000;
-            text-align: center;
-            padding: 10px;
-            color: #666;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>JADEA MOOVE - Chauffeur Privé Haut de Gamme</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #111; color: #fff; margin: 0; padding: 0; }
+    header {
+      background: url('https://images.unsplash.com/photos/65cZwEfYltw?auto=format&fit=crop&w=1350') center/cover no-repeat;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header img { max-width: 180px; margin-bottom: 10px; }
+    header h1 { margin: 0; color: #e0b000; font-size: 36px; }
+    header p { margin: 10px 0 0; font-size: 18px; }
+    section { padding: 20px; max-width: 800px; margin: auto; }
+    h2 { color: #e0b000; border-bottom: 1px solid #444; padding-bottom: 5px; }
+    a.button {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 10px 0;
+      background-color: #e0b000;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    form input, form textarea, form select {
+      width: 100%; padding: 10px; margin: 5px 0 15px; border: none; border-radius: 4px;
+    }
+    form button {
+      padding: 10px 20px;
+      background-color: #e0b000; color: #000; border: none; border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 10px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Logo Jadea Moove">
-        <h1>JADEA MOOVE</h1>
-        <p>Votre trajet, notre excellence</p>
-    </header>
+  <header>
+    <img src="logo.png" alt="Logo Jadea Moove">
+    <h1>JADEA MOOVE</h1>
+    <p>Votre trajet, notre excellence</p>
+  </header>
 
-    <section>
-        <h2>À propos de moi</h2>
-        <p>
-            Je suis chauffeur VTC professionnel, passionné par le service haut de gamme et l'expérience client.  
-            Basé en Île-de-France, je vous accompagne avec discrétion, ponctualité et élégance pour tous vos trajets : transferts, mise à disposition, événements spéciaux ou professionnels.
-        </p>
+  <section>
+    <h2>À propos de moi</h2>
+    <p>Je suis chauffeur VTC professionnel, passionné par le service haut de gamme. Basé en Île-de-France, je vous accompagne avec discrétion, ponctualité et élégance dans tous vos trajets.</p>
 
-        <h2>Nos Services</h2>
-        <ul>
-            <li>Transferts aéroports / gares</li>
-            <li>Mise à disposition à l'heure ou journée</li>
-            <li>Chauffeur business & VIP</li>
-            <li>Mariages & événements</li>
-        </ul>
+    <h2>Nos Services</h2>
+    <ul>
+      <li>Transferts aéroports / gares</li>
+      <li>Mise à disposition à l'heure ou journée</li>
+      <li>Chauffeur business & VIP</li>
+      <li>Mariages & événements</li>
+    </ul>
 
-        <h2>Réservez votre trajet</h2>
-        <form action="mailto:Mukongo.pros@gmail.com" method="POST" enctype="text/plain">
-            <input type="text" name="Nom" placeholder="Votre nom" required>
-            <input type="tel" name="Téléphone" placeholder="Votre téléphone" required>
-            <input type="email" name="Email" placeholder="Votre email" required>
-            <input type="text" name="Départ" placeholder="Adresse de départ" required>
-            <input type="text" name="Arrivée" placeholder="Adresse d’arrivée" required>
-            <input type="datetime-local" name="DateHeure" required>
-            <textarea name="Détails" rows="5" placeholder="Autres précisions (nombre de personnes, bagages, etc.)"></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
+    <h2>Avis Clients</h2>
+    <p>⭐⭐⭐⭐⭐ "Service impeccable, chauffeur très professionnel" – Sarah D.</p>
+    <p>⭐⭐⭐⭐⭐ "Ponctuel, voiture propre et très agréable. Je recommande !" – Karim B.</p>
 
-        <p style="text-align: center;">Ou</p>
-        <a class="button" href="https://wa.me/33760456223" target="_blank">Réserver via WhatsApp</a>
-    </section>
+    <h2>Réservation en ligne</h2>
+    <form action="mailto:Mukongo.pros@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="Nom" placeholder="Votre nom" required>
+      <input type="tel" name="Téléphone" placeholder="Votre téléphone" required>
+      <input type="email" name="Email" placeholder="Votre email" required>
+      <input type="text" name="Départ" placeholder="Lieu de départ" required>
+      <input type="text" name="Arrivée" placeholder="Lieu d’arrivée" required>
+      <input type="datetime-local" name="DateHeure" required>
+      <textarea name="Détails" rows="5" placeholder="Autres précisions..."></textarea>
+      <button type="submit">Envoyer la demande</button>
+    </form>
 
-    <footer>
-        &copy; 2025 JADEA MOOVE - Chauffeur Privé à Paris
-    </footer>
+    <p style="text-align: center;">Ou</p>
+    <a class="button" href="https://wa.me/33760456223" target="_blank">Réserver via WhatsApp</a>
+  </section>
+
+  <footer>
+    &copy; 2025 JADEA MOOVE - Chauffeur Privé à Paris
+  </footer>
 </body>
 </html>
