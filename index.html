@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>JADEA MOOVE - Chauffeur Privé Haut de Gamme</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #111;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+        }
+        header img {
+            max-width: 180px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+        header h1 {
+            margin: 0;
+            color: #e0b000;
+        }
+        header p {
+            margin: 5px 0 0 0;
+            font-size: 16px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #e0b000;
+        }
+        a.button {
+            display: inline-block;
+            padding: 12px 20px;
+            margin: 10px 0;
+            background-color: #e0b000;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 10px;
+            color: #666;
+            font-size: 14px;
+        }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: none;
+            border-radius: 4px;
+        }
+        form button {
+            padding: 10px 20px;
+            background-color: #e0b000;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header style="background: url('https://wallpapercave.com/wp/wp2783455.jpg') center/cover no-repeat; position: relative;">
+      <div style="background-color: rgba(0, 0, 0, 0.5); padding: 40px 20px;">
+        <img src="logo.png" alt="Logo Jadea Moove">
+        <h1>JADEA MOOVE</h1>
+        <p>Votre trajet, notre excellence</p>
+      </div>
+    </header>
+
+    <section>
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Transferts aéroports / gares</li>
+            <li>Mise à disposition à l'heure ou journée</li>
+            <li>Chauffeur business & VIP</li>
+            <li>Mariages & événements</li>
+        </ul>
+
+        <h2>À propos de moi</h2>
+        <p>
+        Je suis chauffeur VTC professionnel, passionné par le service haut de gamme et l'expérience client.
+        Basé en Île-de-France, je vous accompagne avec discrétion, ponctualité et élégance pour tous vos trajets : transferts, mise à disposition, événements spéciaux ou professionnels.
+        </p>
+
+        <h2>Réservez votre trajet</h2>
+        <a class="button" href="https://wa.me/33760456223" target="_blank">Réserver par WhatsApp</a>
+
+        <h2>Formulaire de réservation</h2>
+        <form action="mailto:Mukongo.pros@gmail.com" method="POST" enctype="text/plain">
+            <input type="text" name="Nom" placeholder="Votre nom" required>
+            <input type="email" name="Email" placeholder="Votre email" required>
+            <input type="text" name="Téléphone" placeholder="Votre numéro de téléphone" required>
+            <input type="text" name="Lieu_de_départ" placeholder="Lieu de départ" required>
+            <input type="text" name="Lieu_d_arrivée" placeholder="Lieu d'arrivée" required>
+            <input type="datetime-local" name="Date_heure" required>
+            <select name="Type_de_service" required>
+                <option value="">Choisissez un service</option>
+                <option value="Transfert">Transfert</option>
+                <option value="Mise à disposition">Mise à disposition</option>
+                <option value="Événement">Événement</option>
+            </select>
+            <textarea name="Message" rows="5" placeholder="Détails supplémentaires..."></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 JADEA MOOVE - Chauffeur Privé à Paris
+    </footer>
+</body>
+</html>
