@@ -141,14 +141,40 @@
         <h2>Réservez votre trajet</h2>
         <a class="button" href="https://wa.me/33760456223" target="_blank">Réserver par WhatsApp</a>
 
-        <h2>Formulaire de contact</h2>
-        <form action="mailto:Mukongo.pros@gmail.com" method="POST" enctype="text/plain">
-            <input type="text" name="Nom" placeholder="Votre nom" required>
-            <input type="email" name="Email" placeholder="Votre email" required>
-            <textarea name="Message" rows="5" placeholder="Votre demande..." required></textarea>
-            <button type="submit">Envoyer</button>
-        </form>
+        <h2>Réservation en ligne</h2>
+<form action="mailto:Mukongo.pros@gmail.com" method="POST" enctype="text/plain">
+    <label>Nom complet :</label>
+    <input type="text" name="Nom" placeholder="Votre nom complet" required>
 
+    <label>Email :</label>
+    <input type="email" name="Email" placeholder="Votre adresse email" required>
+
+    <label>Numéro de téléphone :</label>
+    <input type="tel" name="Téléphone" placeholder="Votre numéro" required>
+
+    <label>Date du trajet :</label>
+    <input type="date" name="Date" required>
+
+    <label>Heure de prise en charge :</label>
+    <input type="time" name="Heure" required>
+
+    <label>Adresse de départ :</label>
+    <input type="text" name="Départ" placeholder="Adresse complète" required>
+
+    <label>Adresse de destination :</label>
+    <input type="text" name="Destination" placeholder="Adresse complète" required>
+
+    <label>Nombre de passagers :</label>
+    <input type="number" name="Passagers" min="1" max="8" required>
+
+    <label>Bagages :</label>
+    <input type="text" name="Bagages" placeholder="Combien et type de bagages">
+
+    <label>Message complémentaire :</label>
+    <textarea name="Message" rows="4" placeholder="Vos besoins spécifiques, etc."></textarea>
+
+    <button type="submit">Envoyer la demande</button>
+</form>
         <h2>Nous situer</h2>
         <iframe 
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999460949522!2d2.292292715674315!3d48.85884417928785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdb7fa7d92b%3A0x1ba2d7d33b4b6a67!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1663258125012"
